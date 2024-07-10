@@ -1,0 +1,10 @@
+name: games
+version: '${project.version}'
+main: com.xboxbedrock.minecraft.games.Games
+api-version: '1.20'
+depend: [ProtocolLib, FastAsyncWorldEdit]
+commands:
+  tpll:
+    description: "Teleports player to latitude longitude coordinates."
+    permission: games.tpll
+    usage: /tpll <lat> <lon>

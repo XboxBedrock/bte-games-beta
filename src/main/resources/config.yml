@@ -1,0 +1,13 @@
+version: 1
+work_in: ["city_1", "city_2"]
+twelve_worlds: ["world_1"]
+prefix: "&b&lBTE Events >>&r"
+offsets:
+  city_1:
+    x: 0
+    y: 0
+    z: 0
+  city:2:
+    x: 0
+    y: 0
+    z: 0
